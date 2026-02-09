@@ -1,0 +1,31 @@
+# Output minimal version to embed in Dear ImGui sources
+# Usage: `fontforge -script BuildMinimal-FontForgeScript.txt`
+Open("../ProggyForever-Regular.sfd")
+
+# Move '...'
+Select(0x2026)
+Copy()
+Select(0x0085)
+Paste()
+
+# Subset
+SelectMore(0x20,0xFF)
+SelectMore(0x20AC) # Euro sign
+SelectInvert()
+DetachAndRemoveGlyphs()
+
+# Optimize
+SelectAll()
+RemoveOverlap()
+Simplify()
+
+# Strip metadata
+i=0
+while (i < 23)
+	SetTTFName(0x409,i,"")
+	i=i+1
+endloop
+SetFontNames(".",".",".",".",".",".")
+Generate("output/ProggyForever-Regular-minimal.ttf")  # .ttf smaller than .otf
+
+# At this point you can use binary_to_compressed_c.exe -u8 ProggyForever-Regular-minimal.ttf proggy_forever_minimal_ttf
