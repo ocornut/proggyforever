@@ -23,6 +23,8 @@ _ProggyClean vs ProggyForever_
 
 The new font is designed to be embeddable inside Dear ImGui sources by default. After applying optimizations through a Fontforge script and compression it is about ~14 KB which was deemed a reasonable size (embedding can be opted-out).
 
+Feedback/comments in Dear ImGui thread: [#9233](https://github.com/ocornut/imgui/issues/9233)
+
 Enjoy!
 <br>-Omar
 
