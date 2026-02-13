@@ -824,14 +824,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-25 293 m 1
- 425 441 l 1
- 425 378 l 1
- 106 264 l 1
- 425 150 l 1
- 425 86 l 1
- 25 235 l 1
- 25 293 l 1
+60 293 m 5
+ 400 424 l 5
+ 400 361 l 5
+ 140 264 l 5
+ 400 166 l 5
+ 400 102 l 5
+ 60 235 l 5
+ 60 293 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -866,14 +866,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-25 442 m 1
- 425 294 l 1
- 425 236 l 1
- 25 87 l 1
- 25 150 l 1
- 344 265 l 1
- 25 379 l 1
- 25 442 l 1
+60 424 m 5
+ 400 294 l 5
+ 400 236 l 5
+ 60 102 l 5
+ 60 165 l 5
+ 319 265 l 5
+ 60 361 l 5
+ 60 424 l 5
 EndSplineSet
 Validated: 1
 EndChar
