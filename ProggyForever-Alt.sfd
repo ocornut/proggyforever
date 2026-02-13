@@ -616,7 +616,7 @@ StartChar: four
 Encoding: 52 52 21
 Width: 450
 GlyphClass: 1
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
@@ -628,16 +628,15 @@ SplineSet
  270 0 l 1
  270 126 l 1
  23 126 l 1
- 23 201 l 1
- 235 531 l 1
+ 23 189 l 1
+ 244 531 l 5
  338 531 l 1
  338 185 l 1
-278 185 m 1
- 278 465 l 1
+276 185 m 1
+ 276 465 l 1
  95 185 l 1
- 278 185 l 1
+ 276 185 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: five
