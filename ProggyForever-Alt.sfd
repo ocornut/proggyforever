@@ -842,22 +842,22 @@ StartChar: equal
 Encoding: 61 61 30
 Width: 450
 GlyphClass: 1
-Flags: HW
+Flags: WO
+VStem: 64 322<156 217 318 379>
 LayerCount: 2
 Fore
 SplineSet
-425 318 m 1
- 25 318 l 1
- 25 379 l 1
- 425 379 l 1
- 425 318 l 1
-425 156 m 1
- 25 156 l 1
- 25 217 l 1
- 425 217 l 1
- 425 156 l 1
+388 318 m 5
+ 66 318 l 5
+ 66 379 l 5
+ 388 379 l 5
+ 388 318 l 5
+388 156 m 5
+ 66 156 l 5
+ 66 217 l 5
+ 388 217 l 5
+ 388 156 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: greater
