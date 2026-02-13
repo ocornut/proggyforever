@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
-FontName: ProggyForeverRegular
-FullName: ProggyForever
-FamilyName: ProggyForever
+FontName: ProggyForever-Alt
+FullName: ProggyForever-Alt
+FamilyName: ProggyForever-Alt
 Weight: Regular
 Copyright: Copyright (c) 2026 Disco Hello, Copyright (c) 2019,2023 Tristan Grimmer
 Version: Version 1.000
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1770654402
-ModificationTime: 1771015013
+ModificationTime: 1771015379
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -59,7 +59,7 @@ OS2CodePages: 00000003.00000000
 OS2UnicodeRanges: 80000007.10000002.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "1.012;ProggyForeverRegular" "" "Version 1.012;Fontself Maker 3.5.17" "" "" "" "Tristan Grimmer, Thiebault Courot" "" "" "" "MIT License" "" "" "ProggyForever" "Regular"
+LangName: 1033 "" "" "" "1.012;ProggyForever-Alt" "" "Version 1.012;Fontself Maker 3.5.17" "" "" "" "Tristan Grimmer, Thiebault Courot" "" "" "" "MIT License" "" "" "ProggyForever-Alt" "Regular"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
